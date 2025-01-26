@@ -1,0 +1,45 @@
+00:32:59.345 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+00:33:00.006 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+00:33:01.468 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+00:33:01.527 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+00:33:04.182 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+00:33:04.675 [main] INFO  testCases.TC002_LoginTest - Logging
+00:34:20.080 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+00:34:20.635 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+00:34:21.993 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+00:34:22.054 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+00:34:24.307 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+00:34:24.770 [main] INFO  testCases.TC002_LoginTest - Logging
+00:34:25.705 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
+18:42:42.336 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+18:42:43.129 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+18:42:44.507 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+18:42:44.566 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+18:42:47.373 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+18:42:47.836 [main] INFO  testCases.TC002_LoginTest - Logging
+18:42:48.978 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
+18:45:04.745 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+18:45:05.373 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+18:45:06.821 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+18:45:06.889 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+18:45:09.883 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+18:45:10.400 [main] INFO  testCases.TC002_LoginTest - Logging
+18:45:11.395 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
+18:47:46.993 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+18:47:47.712 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+18:47:49.173 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+18:47:49.234 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+18:47:51.994 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+18:47:52.473 [main] INFO  testCases.TC002_LoginTest - Logging
+18:56:18.962 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+18:56:19.575 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+18:56:20.946 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+18:56:21.000 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+18:56:23.704 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
+18:56:24.166 [main] INFO  testCases.TC002_LoginTest - Logging
+18:56:25.128 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
+18:56:42.548 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Starting TC001_AccountRegistrationTest  **********************
+18:56:43.229 [main] INFO  testCases.TC001_AccountRegistrationTest - Giving customer details
+18:56:44.609 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the account creation message
+18:56:44.668 [main] INFO  testCases.TC001_AccountRegistrationTest - **********  Finished TC001_AccountRegistrationTest  **********************
+18:56:48.002 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
