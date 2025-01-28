@@ -41,7 +41,7 @@ public class BaseClass {
 		p = new Properties();
 		p.load(file);
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) { // this setup is only for Selenium Grid 
 
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -61,7 +61,7 @@ public class BaseClass {
 				capabilities.setBrowserName("chrome");
 				break;
 			case "edge":
-				capabilities.setBrowserName("MicrodoftEdge");
+				capabilities.setBrowserName("MicrosoftEdge");
 				break;
 			default:
 				System.out.println("Browser is not acceptable");
@@ -72,7 +72,7 @@ public class BaseClass {
 
 		}
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+		if (p.getProperty("execution_env").equalsIgnoreCase("local")) { 
 
 			switch (browser.toLowerCase()) {
 			case "chrome":

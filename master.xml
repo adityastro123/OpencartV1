@@ -7,7 +7,7 @@
 	</listeners>
 
 	<test thread-count="5" name="Test">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="edge" />
 		<parameter name="os" value="Windows" />
 
 
