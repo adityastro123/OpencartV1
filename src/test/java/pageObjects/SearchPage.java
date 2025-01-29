@@ -10,8 +10,11 @@ public class SearchPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@id='content']//h1")
+	@FindBy(xpath = "//h2[contains(text(),'Products meeting the search criteria')]")
 	private WebElement productSearchHeading;
+	
+	@FindBy(xpath = "//div[@class='product-thumb']")
+	private WebElement product;
 	
 	public boolean doesSearchPageExist() {
 		try {
@@ -22,4 +25,11 @@ public class SearchPage extends BasePage {
 	}
 	
 	//action method for product search availability --> todo
+	public boolean isProductAvailable() {
+		try {
+			return product.isDisplayed();
+		}catch(Exception e) {
+			return false;
+		}
+	}
 }
