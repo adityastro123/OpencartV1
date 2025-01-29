@@ -17,3 +17,5 @@ Session ID: e284d13efc25693724849169fef191d6
 21:41:26.661 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
 21:41:27.522 [main] INFO  testCases.TC002_LoginTest - Logging
 21:41:28.740 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
+22:22:28.362 [main] INFO  testCases.TC004_SearchProductTest - ******* Starting TC004_SearchProductTest *******
+22:22:29.869 [main] INFO  testCases.TC004_SearchProductTest - *********** Finished TC004_SearchProductTest *************

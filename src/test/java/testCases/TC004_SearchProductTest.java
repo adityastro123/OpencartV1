@@ -24,7 +24,7 @@ public class TC004_SearchProductTest extends BaseClass {
 		Assert.assertTrue(sp.doesSearchPageExist(), "Search Page doesn't exist");
 		
 		//check if the searched product available or not
-		
+		Assert.assertTrue(sp.isProductAvailable(), "Product not available");
 		
 		}catch(Exception e) {
 			Assert.fail();

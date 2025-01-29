@@ -2,18 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-28T21:41:03 IST" name="master" finished-at="2025-01-28T21:41:28 IST" duration-ms="25779">
+  <suite started-at="2025-01-29T22:21:58 IST" name="master" finished-at="2025-01-29T22:22:30 IST" duration-ms="31589">
     <groups>
-      <group name="Master">
-        <method signature="TC002_LoginTest.loginTest()[pri:0, instance:testCases.TC002_LoginTest@6989da5e]" name="loginTest" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC002_LoginTest.loginTest()[pri:0, instance:testCases.TC002_LoginTest@6989da5e]" name="loginTest" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-01-28T21:41:03 IST" name="Test" finished-at="2025-01-28T21:41:28 IST" duration-ms="25779">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6989da5e]" started-at="2025-01-28T21:41:03 IST" name="setup" finished-at="2025-01-28T21:41:26 IST" duration-ms="22984" status="PASS">
+    <test started-at="2025-01-29T22:21:58 IST" name="Test" finished-at="2025-01-29T22:22:30 IST" duration-ms="31589">
+      <class name="testCases.TC004_SearchProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@6989da5e]" started-at="2025-01-29T22:21:58 IST" name="setup" finished-at="2025-01-29T22:22:28 IST" duration-ms="29449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:testCases.TC002_LoginTest@6989da5e]" started-at="2025-01-28T21:41:26 IST" name="loginTest" finished-at="2025-01-28T21:41:28 IST" duration-ms="2145" status="PASS">
+        <test-method signature="f()[pri:0, instance:testCases.TC004_SearchProductTest@6989da5e]" started-at="2025-01-29T22:22:28 IST" name="f" finished-at="2025-01-29T22:22:29 IST" duration-ms="1543" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@6989da5e]" started-at="2025-01-28T21:41:28 IST" name="tearDown" finished-at="2025-01-28T21:41:28 IST" duration-ms="228" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProductTest@6989da5e]" started-at="2025-01-29T22:22:29 IST" name="tearDown" finished-at="2025-01-29T22:22:30 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- testCases.TC004_SearchProductTest -->
     </test> <!-- Test -->
   </suite> <!-- master -->
 </testng-results>
