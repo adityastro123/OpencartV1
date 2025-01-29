@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MyAccountPage extends BasePage {
-	public WebDriver driver;
 
 	public MyAccountPage(WebDriver driver) {
 		super(driver);
