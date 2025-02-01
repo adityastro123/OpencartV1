@@ -10,7 +10,7 @@ import testBase.BaseClass;
 public class TC004_SearchProductTest extends BaseClass {
 
 	@Test
-	public void f() {
+	public void searchProduct() {
 		logger.info("******* Starting TC004_SearchProductTest *******");
 		
 		try {

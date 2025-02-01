@@ -1,21 +1,10 @@
-18:54:09.017 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
-18:54:09.591 [main] INFO  testCases.TC002_LoginTest - Logging
-18:54:10.800 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
-19:51:08.046 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
-19:51:18.118 [main] ERROR testCases.TC002_LoginTest - Login Unsuccessfulno such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='top-links']/ul/li[2]/a"}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e284d13efc25693724849169fef191d6, findElement {using=xpath, value=//div[@id='top-links']/ul/li[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64315}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\skg03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64315/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e284d13efc25693724849169fef191d6
-21:38:50.816 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
-21:38:51.697 [main] INFO  testCases.TC002_LoginTest - Logging
-21:38:52.926 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
-21:41:26.661 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest **************
-21:41:27.522 [main] INFO  testCases.TC002_LoginTest - Logging
-21:41:28.740 [main] INFO  testCases.TC002_LoginTest - ********************* Finished TC002_LoginTest **********************
-22:22:28.362 [main] INFO  testCases.TC004_SearchProductTest - ******* Starting TC004_SearchProductTest *******
-22:22:29.869 [main] INFO  testCases.TC004_SearchProductTest - *********** Finished TC004_SearchProductTest *************
+19:01:49.191 [main] TRACE testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:11:02.118 [main] TRACE testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:21:31.314 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:23:00.112 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:26:49.501 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:29:13.070 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:35:22.815 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:38:24.674 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:39:38.713 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+19:39:50.382 [main] INFO  testCases.TC005_AddToCartTest - ************ Finished TC005_AddToCartTest ***************
