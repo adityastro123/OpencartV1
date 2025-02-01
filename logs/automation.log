@@ -8,3 +8,15 @@
 19:38:24.674 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
 19:39:38.713 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
 19:39:50.382 [main] INFO  testCases.TC005_AddToCartTest - ************ Finished TC005_AddToCartTest ***************
+21:44:46.506 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+21:44:49.604 [main] ERROR testCases.TC005_AddToCartTest - Error occured: 
+21:45:30.303 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+21:49:08.699 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:02:40.040 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:04:20.155 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:06:33.611 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:08:26.848 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:25:07.534 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+22:25:20.747 [main] INFO  testCases.TC005_AddToCartTest - Product added
+22:25:24.639 [main] INFO  testCases.TC005_AddToCartTest - Product removed
+22:25:24.639 [main] INFO  testCases.TC005_AddToCartTest - ************ Finished TC005_AddToCartTest ***************

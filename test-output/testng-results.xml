@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-01T19:39:31 IST" name="master" finished-at="2025-02-01T19:39:50 IST" duration-ms="18800">
+  <suite started-at="2025-02-01T22:24:55 IST" name="master" finished-at="2025-02-01T22:25:24 IST" duration-ms="29056">
     <groups>
     </groups>
-    <test started-at="2025-02-01T19:39:31 IST" name="Test" finished-at="2025-02-01T19:39:50 IST" duration-ms="18800">
+    <test started-at="2025-02-01T22:24:55 IST" name="Test" finished-at="2025-02-01T22:25:24 IST" duration-ms="29056">
       <class name="testCases.TC005_AddToCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T19:39:32 IST" name="setup" finished-at="2025-02-01T19:39:38 IST" duration-ms="6517" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T22:24:56 IST" name="setup" finished-at="2025-02-01T22:25:07 IST" duration-ms="11354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="f()[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T19:39:38 IST" name="f" finished-at="2025-02-01T19:39:50 IST" duration-ms="11702" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T22:25:07 IST" name="addToCart" finished-at="2025-02-01T22:25:24 IST" duration-ms="17137" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T19:39:50 IST" name="tearDown" finished-at="2025-02-01T19:39:50 IST" duration-ms="221" status="PASS">
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_AddToCartTest@6989da5e]" started-at="2025-02-01T22:25:24 IST" name="tearDown" finished-at="2025-02-01T22:25:24 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

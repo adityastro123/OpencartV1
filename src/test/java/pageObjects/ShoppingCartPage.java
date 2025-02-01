@@ -1,11 +1,15 @@
 package pageObjects;
 
+import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ShoppingCartPage extends BasePage {
 
@@ -22,11 +26,20 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(xpath = "//div[@id='content']//form//table")
 	private WebElement productTable;
 
+	@FindBy(xpath = "//button[@type='submit']")
+	private WebElement addMoreProductBtn;
+
+	@FindBy(xpath = "//button[@type='submit']//following-sibling::button")
+	private WebElement removeProductBtn;
+
+	@FindBy(xpath = "//div[contains(text(),'Success: You have modified your shopping cart!')]")
+	private WebElement productUpdateAlert;
+
 	public boolean doesShoppingCartPageExist() {
 		try {
 			return shoppingCartHeading.isDisplayed();
 		} catch (Exception e) {
-			System.out.println("error occured: "+ e.getMessage());
+			System.out.println("error occured: " + e.getMessage());
 			return false;
 		}
 	}
@@ -35,13 +48,13 @@ public class ShoppingCartPage extends BasePage {
 		try {
 			return shoppingCartEmptyMessage.isDisplayed();
 		} catch (Exception e) {
-			System.out.println("error occured: "+ e.getMessage());
+			System.out.println("error occured: " + e.getMessage());
 			return true;
 		}
 	}
 
 	public boolean isProductAddedInCart(String pname) {
-		
+
 		try {
 			List<WebElement> products = productTable.findElements(By.xpath(".//td[2]//a"));
 			for (WebElement product : products) {
@@ -53,9 +66,25 @@ public class ShoppingCartPage extends BasePage {
 			return false;
 
 		} catch (Exception e) {
-			System.out.println("error occured: "+ e.getMessage());
+			System.out.println("error occured: " + e.getMessage());
 			return false;
 		}
 	}
 
+	public void addMoreProduct() {
+		addMoreProductBtn.click();
+	}
+
+	public void removeProductFromCart() {
+		removeProductBtn.click();
+	}
+
+	public boolean isProductAdded() {
+		try {			
+			return productUpdateAlert.isDisplayed();
+		} catch (Exception e) {
+			System.out.println("error occured: " + e.getMessage());
+			return false;
+		}
+	}
 }
