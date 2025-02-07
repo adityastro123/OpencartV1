@@ -20,3 +20,7 @@
 22:25:20.747 [main] INFO  testCases.TC005_AddToCartTest - Product added
 22:25:24.639 [main] INFO  testCases.TC005_AddToCartTest - Product removed
 22:25:24.639 [main] INFO  testCases.TC005_AddToCartTest - ************ Finished TC005_AddToCartTest ***************
+18:57:09.406 [main] INFO  testCases.TC005_AddToCartTest - ************* Started TC005_AddToCartTest **************
+18:57:23.712 [main] INFO  testCases.TC005_AddToCartTest - Product added
+18:57:27.232 [main] INFO  testCases.TC005_AddToCartTest - Product removed
+18:57:27.232 [main] INFO  testCases.TC005_AddToCartTest - ************ Finished TC005_AddToCartTest ***************

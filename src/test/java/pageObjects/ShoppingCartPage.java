@@ -26,8 +26,11 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(xpath = "//div[@id='content']//form//table")
 	private WebElement productTable;
 
+	@FindBy(xpath = "//button[@type='submit']/..//preceding-sibling::input")
+	private WebElement addMoreProductInputBox;
+	
 	@FindBy(xpath = "//button[@type='submit']")
-	private WebElement addMoreProductBtn;
+	private WebElement updateProductBtn;
 
 	@FindBy(xpath = "//button[@type='submit']//following-sibling::button")
 	private WebElement removeProductBtn;
@@ -71,8 +74,13 @@ public class ShoppingCartPage extends BasePage {
 		}
 	}
 
-	public void addMoreProduct() {
-		addMoreProductBtn.click();
+	public void addMoreProuct(String quantity) {
+		addMoreProductInputBox.clear();
+		addMoreProductInputBox.sendKeys(quantity);
+	}
+	
+	public void updateProduct() {
+		updateProductBtn.click();
 	}
 
 	public void removeProductFromCart() {

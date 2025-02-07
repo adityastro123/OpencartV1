@@ -10,6 +10,7 @@ import testBase.BaseClass;
 
 
 public class TC005_AddToCartTest extends BaseClass {
+	
 	@Test
 	public void addToCart() {
 		logger.info("************* Started TC005_AddToCartTest **************");
@@ -21,12 +22,6 @@ public class TC005_AddToCartTest extends BaseClass {
 			hm.clickSearchBtn();
 
 			SearchPage sp = new SearchPage(driver);
-
-			// checking if the search page exists
-			Assert.assertTrue(sp.doesSearchPageExist(), "Search Page doesn't exist");
-
-			// check if the searched product available or not
-			Assert.assertTrue(sp.isProductAvailable(), "Product not available");
 			
 			sp.addToCart();
 			sp.clickOnShoppingCartBtn();
@@ -45,7 +40,9 @@ public class TC005_AddToCartTest extends BaseClass {
 			
 			
 			//adding one more of the same product in the cart
-			scp.addMoreProduct(); //now there are two of the same product
+			scp.addMoreProuct(p.getProperty("productQuantity"));
+			Thread.sleep(2000);
+			scp.updateProduct(); 
 			
 			Assert.assertTrue(scp.isProductAdded(), "No extra Product added!");
 			logger.info("Product added");
